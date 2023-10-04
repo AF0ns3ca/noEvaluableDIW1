@@ -44,6 +44,14 @@ section{
     color:#DAA520;
 }
 
+.ac2{
+    transition: all 0.3s ease;
+    &:hover{
+        background-color: #FFF176;
+        color: #81D4FA;
+        text-transform: uppercase;
+    }
+}
 
 .nav{
     display: flex;
