@@ -47,9 +47,19 @@ section{
 .ac2{
     transition: all 0.3s ease;
     &:hover{
-        background-color: #FFF176;
-        color: #81D4FA;
-        text-transform: uppercase;
+        background-color: black;
+        color: white;
+        font-size: 20pt;
+    }
+}
+
+
+.ac3 a{
+    color:blue;
+    transition: all 0.3s ease;
+    &:hover{
+        color: purple;
+        font-size: 25pt;
     }
 }
 
